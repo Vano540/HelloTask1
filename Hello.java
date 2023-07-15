@@ -8,5 +8,7 @@ public class Hello {
         if (number > 7) {
             System.out.println("Привет");
         }
+
+        scanner.close();
     }
 }
